@@ -1,0 +1,70 @@
+{
+ "schema_version": "1.0",
+ "edition": "vda_amr_atlas",
+ "id": "arpa_vda_ecoscienza_2025_reflui",
+ "title": "ARPA Valle d'Aosta - AMR in acque superficiali e reflue (screening 2024-2025)",
+ "publisher": "ARPA Valle d'Aosta (articolo pubblicato su Ecoscienza, rivista di Arpae Emilia-Romagna)",
+ "citation": "Laboratorio di Chimica organica e inorganica e Laboratorio di Biologia, microbiologia e virologia di Arpa Valle d'Aosta (a cura di). «Lo studio dell'antimicrobico resistenza in Valle d'Aosta». Ecoscienza, rivista di Arpae Emilia-Romagna, n. 3, anno 2025, pp. 24-25.",
+ "source_url": "https://aggiornati.arpae.it/it/ecoscienza/numeri-ecoscienza/anno-2025/numero-3-anno-2025/i-laboratori-per-l-ambiente/studioantimicrobicoresistenza_valle_aosta_es_2025-03.pdf",
+ "license": "CC BY-NC-SA 4.0 (Ecoscienza: «Tutti gli articoli, se non altrimenti specificato, sono rilasciati con licenza Creative Commons http://creativecommons.org/licenses/by-nc-sa/4.0/»)",
+ "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+ "attribution": "Fonte: ARPA Valle d'Aosta, «Lo studio dell'antimicrobico resistenza in Valle d'Aosta», Ecoscienza 3/2025, pp. 24-25, CC BY-NC-SA 4.0. Sintesi e riorganizzazione dei dati a cura di CodexVitae ETS.",
+ "share_alike_note": "Questo file è un'opera derivata (estrazione e sintesi dei risultati) ed è distribuito con la stessa licenza CC BY-NC-SA 4.0, solo per usi non commerciali. CodexVitae ETS è un ente del terzo settore senza scopo di lucro (decisione di Alex, 2026-11-20).",
+ "geography": "Valle d'Aosta",
+ "geography_level": "regione",
+ "mapped": false,
+ "geography_note": "I due depuratori non sono nominati nell'articolo: nessun punto in mappa, scheda regionale.",
+ "records": [
+  {
+   "period": "2024",
+   "matrix": "acque superficiali e acque reflue in uscita dagli impianti di depurazione",
+   "method": "protocollo OMS Tricycle (E. coli su terreno selettivo con cefotaxime, conferma biochimica)",
+   "samples": 34,
+   "target": "E. coli produttore di ESBL",
+   "positive": 34,
+   "result_text": "«I campioni analizzati sono stati in tutto 34 e in tutti è stato rilevato E. coli produttore di Esbl.»"
+  },
+  {
+   "period": "2025",
+   "matrix": "acque reflue in ingresso e in uscita di due impianti di depurazione valdostani (non nominati), campionamento settimanale",
+   "method": "protocollo ISS (novembre 2024) «Conta di microrganismi resistenti agli antibiotici in acque reflue urbane mediante esame colturale»; spatolamento (ingresso), filtrazione (uscita)",
+   "samples": 40,
+   "results": [
+    {
+     "target": "E. coli produttore di ESBL",
+     "positive": 40
+    },
+    {
+     "target": "Enterococchi resistenti alla vancomicina (VRE)",
+     "positive": 40
+    },
+    {
+     "target": "E. coli resistente ai carbapenemi",
+     "positive": 0
+    },
+    {
+     "target": "Klebsiella pneumoniae resistente ai carbapenemi",
+     "positive": null,
+     "note": "identificate «accidentalmente alcune colonie» con MALDI-TOF; numero non riportato"
+    }
+   ],
+   "result_text": "«In tutti i campioni (40 in totale) è stata riscontrata la presenza di E. coli Esbl produttori e enterococchi resistenti alla vancomicina mentre in nessun campione è stato rilevato E. coli resistente ai carbapenemi.»"
+  },
+  {
+   "period": "2024-2025",
+   "matrix": "reflui (depuratore ospedaliero, poi ingressi e uscite dei depuratori regionali)",
+   "target": "residui di antibiotici: azitromicina, claritromicina, amoxicillina, ciprofloxacina, sulfametossazolo, trimetoprim, ofloxacina, cefazolina",
+   "result_text": "Metodo UPLC-MS/MS validato; nel primo semestre 2025 «presenza di alcune molecole»; concentrazioni non riportate."
+  }
+ ],
+ "caveats": [
+  "Dato qualitativo (presenza/assenza), non prevalenza né carica.",
+  "Impianti scelti per il consumo territoriale di antibiotici dei comuni serviti: non rappresentativi di tutta la regione.",
+  "Nessun downscaling a comune o impianto."
+ ],
+ "snapshot": {
+  "local_path": "box:/workspace/vda/src/ecoscienza_vda_2025-03.pdf",
+  "sha256": "4bc2f2fe762ad906f75df501c955ee95281a7a921877615f1f93ce800d657516",
+  "acquired_at": "2026-11-20"
+ }
+}

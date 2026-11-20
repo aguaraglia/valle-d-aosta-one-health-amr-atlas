@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "edition": "vda_amr_atlas",
+  "selection_note": "Selezione curata e aggiornata il 2026-11-20: studi regionali o locali con collegamento territoriale esplicito alla Valle d'Aosta (titolo/abstract, o testo integrale open access per i casi dubbi). L'afferenza degli autori da sola non basta. Esclusi per ora gli studi di sola resistenza antifungina e ai biocidi (decisione di ambito aperta). Non equivale a una revisione sistematica e gli studi locali non sono trasformati in stime regionali.",
+  "records": [
+    {
+      "id": "pubmed_40298516",
+      "year": 2025,
+      "title": "Prevalence of Variant GTRIStaphylococcus aureus Isolated from Dairy Cow Milk Samples in the Alpine Grazing System of the Aosta Valley and Its Association with AMR and Virulence Profiles.",
+      "authors": "Monistero V et al.",
+      "journal": "Antibiotics (Basel)",
+      "scope": "veterinary_amr",
+      "geographic_link": "Valle d'Aosta (4 allevamenti da latte in alpeggio, non localizzati). Scala: regione. Luogo verificato sul testo integrale.",
+      "pmid": "40298516",
+      "doi": "10.3390/antibiotics14040348",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/40298516/"
+    },
+    {
+      "id": "pubmed_38396530",
+      "year": 2024,
+      "title": "Detection and Characterization of Zoonotic Pathogens in Game Meat Hunted in Northwestern Italy.",
+      "authors": "Floris I et al.",
+      "journal": "Animals (Basel)",
+      "scope": "foodborne_amr",
+      "geographic_link": "Valle d'Aosta (carne di selvaggina cacciata 2020-2022). Scala: regione. Luogo verificato sul testo integrale.",
+      "pmid": "38396530",
+      "doi": "10.3390/ani14040562",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/38396530/"
+    },
+    {
+      "id": "pubmed_38534639",
+      "year": 2024,
+      "title": "Regional-Scale Analysis of Antimicrobial Usage in Smallholder Cattle Herds (Aosta Valley, Italy): Why Surveillance Matters.",
+      "authors": "Scali F et al.",
+      "journal": "Antibiotics (Basel)",
+      "scope": "veterinary_amr",
+      "geographic_link": "Valle d'Aosta (oltre 1000 allevamenti bovini, non localizzati). Scala: regione. Luogo verificato sul testo integrale.",
+      "pmid": "38534639",
+      "doi": "10.3390/antibiotics13030204",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/38534639/"
+    },
+    {
+      "id": "pubmed_35892105",
+      "year": 2022,
+      "title": "Characterisation of Yersinia Enterocolitica Strains Isolated from Wildlife in the Northwestern Italian Alps.",
+      "authors": "Carella E et al.",
+      "journal": "J Vet Res",
+      "scope": "wildlife_amr",
+      "geographic_link": "Valle d'Aosta (fauna selvatica trovata morta o cacciata, 2015-2018). Scala: regione. Luogo verificato sul testo integrale.",
+      "pmid": "35892105",
+      "doi": "10.2478/jvetres-2022-0021",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/35892105/"
+    },
+    {
+      "id": "pubmed_26552763",
+      "year": 2015,
+      "title": "Molecular epidemiology of carbapenem resistant Enterobacteriaceae in Valle d'Aosta region, Italy, shows the emergence of KPC-2 producing Klebsiella pneumoniae clonal complex 101 (ST101 and ST1789).",
+      "authors": "Del Franco M et al.",
+      "journal": "BMC Microbiol",
+      "scope": "healthcare_amr",
+      "geographic_link": "Valle d'Aosta (reparti ospedalieri e RSA dell'USL Valle d'Aosta). Scala: regione. Luogo verificato sul testo integrale.",
+      "pmid": "26552763",
+      "doi": "10.1186/s12866-015-0597-z",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/26552763/"
+    }
+  ]
+}
