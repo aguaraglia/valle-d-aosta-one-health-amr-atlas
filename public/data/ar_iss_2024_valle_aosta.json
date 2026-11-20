@@ -1,0 +1,81 @@
+{
+ "schema_version": "1.0",
+ "edition": "vda_amr_atlas",
+ "source_id": "ar_iss_2024_valle_aosta",
+ "period": 2024,
+ "geography": "Valle d'Aosta",
+ "scope": "isolati da sangue e liquor; sorveglianza AR-ISS",
+ "coverage": {
+  "value_percent": 100.0,
+  "denominator": "giornate di degenza per ricoveri ordinari per acuti; SDO dimessi 2023",
+  "limitations": "non corregge per gravita; considera i laboratori che hanno inviato emocolture e/o liquor; la Valle d'Aosta partecipa con una propria rete regionale (un laboratorio, Ospedale Regionale U. Parini); per VRE-faecium, CRPA e CRAS gli isolati sono meno di 20: percentuali molto instabili"
+ },
+ "indicators": [
+  {
+   "code": "MRSA",
+   "pathogen": "Staphylococcus aureus",
+   "resistance": "meticillina",
+   "isolates": 68,
+   "resistant": 16,
+   "percent": 23.5,
+   "ci95": "14.1-35.4"
+  },
+  {
+   "code": "VRE-faecium",
+   "pathogen": "Enterococcus faecium",
+   "resistance": "vancomicina",
+   "isolates": 19,
+   "resistant": 8,
+   "percent": 42.1,
+   "ci95": "20.3-66.5",
+   "note": "meno di 20 isolati"
+  },
+  {
+   "code": "CREC",
+   "pathogen": "Escherichia coli",
+   "resistance": "cefalosporine di terza generazione",
+   "isolates": 147,
+   "resistant": 33,
+   "percent": 22.4,
+   "ci95": "16.0-30.1"
+  },
+  {
+   "code": "CRKP",
+   "pathogen": "Klebsiella pneumoniae",
+   "resistance": "carbapenemi",
+   "isolates": 47,
+   "resistant": 15,
+   "percent": 31.9,
+   "ci95": "19.1-47.1"
+  },
+  {
+   "code": "CRPA",
+   "pathogen": "Pseudomonas aeruginosa",
+   "resistance": "carbapenemi",
+   "isolates": 19,
+   "resistant": 0,
+   "percent": 0.0,
+   "ci95": "0.0-17.7",
+   "note": "meno di 20 isolati"
+  },
+  {
+   "code": "CRAS",
+   "pathogen": "Acinetobacter species",
+   "resistance": "carbapenemi",
+   "isolates": 7,
+   "resistant": 4,
+   "percent": 57.1,
+   "ci95": "18.4-90.1",
+   "note": "meno di 20 isolati"
+  }
+ ],
+ "license": "CC BY 4.0 (Note legali ISS, valide anche per EpiCentro: https://www.iss.it/contatti ; https://www.epicentro.iss.it/chi-siamo/disclaimer)",
+ "source": {
+  "title": "AR-ISS: sorveglianza nazionale dell Antibiotico-Resistenza. Dati 2024",
+  "report": "RIS-5/2025",
+  "table": "Tabella 1 (copertura) e Appendice A, Regione Valle d'Aosta (p. 58)",
+  "url": "https://www.epicentro.iss.it/antibiotico-resistenza/ar-iss/RIS-5_2025.pdf",
+  "acquired_at": "2026-11-19",
+  "sha256": "50174DC846E19C6EAD2EA4D55982FC098487251A5EDAB8D484D6101B31482F0F"
+ }
+}

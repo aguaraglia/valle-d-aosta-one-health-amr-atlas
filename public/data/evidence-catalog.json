@@ -1,0 +1,50 @@
+{
+ "schema_version": "1.0",
+ "edition": "vda_amr_atlas",
+ "records": [
+  {
+   "id": "ar_iss_2024_valle_aosta",
+   "title": "AR-ISS 2024 - Valle d'Aosta",
+   "publisher": "Istituto Superiore di Sanita",
+   "evidence_type": "human_amr_regional",
+   "geography": "Valle d'Aosta",
+   "period": "2024",
+   "source_url": "https://www.epicentro.iss.it/antibiotico-resistenza/ar-iss/RIS-5_2025.pdf",
+   "data_file": "public/data/ar_iss_2024_valle_aosta.json",
+   "publication_status": "public_approved",
+   "license": "CC BY 4.0",
+   "note": "Sei combinazioni patogeno-resistenza da sangue/liquor; copertura regionale 100%, rete regionale; VRE, CRPA e CRAS con meno di 20 isolati; nessun downscaling."
+  },
+  {
+   "id": "aifa_opendata_2024_valle_aosta_j01",
+   "title": "AIFA Open Data 2024 - Valle d'Aosta, antibatterici J01",
+   "publisher": "Agenzia Italiana del Farmaco",
+   "evidence_type": "human_antimicrobial_use",
+   "geography": "Valle d'Aosta",
+   "period": "2024",
+   "source_url": "https://www.aifa.gov.it/documents/20142/847578/dati2024_04.12.2025.csv",
+   "data_file": "public/data/aifa_opendata_2024_valle_aosta_j01.json",
+   "publication_status": "public_approved",
+   "license": "CC BY 4.0",
+   "note": "Confezioni e spesa J01 in convenzionata (95.482 confezioni, 0,81 milioni di euro) e negli acquisti diretti (30.810 confezioni, 0,43 milioni di euro). Consumo, non resistenza."
+  },
+  {
+   "id": "arpa_vda_ecoscienza_2025_reflui",
+   "title": "ARPA Valle d'Aosta - AMR in acque superficiali e reflue (screening 2024-2025)",
+   "publisher": "ARPA Valle d'Aosta (articolo pubblicato su Ecoscienza, rivista di Arpae Emilia-Romagna)",
+   "evidence_type": "environmental_amr_regional",
+   "geography": "Valle d'Aosta",
+   "period": "2024-2025",
+   "source_url": "https://aggiornati.arpae.it/it/ecoscienza/numeri-ecoscienza/anno-2025/numero-3-anno-2025/i-laboratori-per-l-ambiente/studioantimicrobicoresistenza_valle_aosta_es_2025-03.pdf",
+   "data_file": "public/data/arpa_vda_ecoscienza_2025_reflui.json",
+   "publication_status": "public_approved",
+   "license": "CC BY-NC-SA 4.0",
+   "citation": "Laboratorio di Chimica organica e inorganica e Laboratorio di Biologia, microbiologia e virologia di Arpa Valle d'Aosta (a cura di). «Lo studio dell'antimicrobico resistenza in Valle d'Aosta». Ecoscienza, rivista di Arpae Emilia-Romagna, n. 3, anno 2025, pp. 24-25.",
+   "attribution": "Fonte: ARPA Valle d'Aosta, «Lo studio dell'antimicrobico resistenza in Valle d'Aosta», Ecoscienza 3/2025, pp. 24-25, CC BY-NC-SA 4.0. Sintesi e riorganizzazione dei dati a cura di CodexVitae ETS.",
+   "share_alike": "Opera derivata distribuita con CC BY-NC-SA 4.0, usi non commerciali.",
+   "note": "Scheda regionale senza mappa: 2024, ESBL E. coli in 34/34 campioni di acque superficiali e reflue; 2025, due depuratori non nominati, 40/40 campioni positivi per ESBL E. coli e VRE, 0 E. coli resistenti ai carbapenemi, alcune K. pneumoniae resistenti ai carbapenemi. Dato qualitativo.",
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+   "geography_note": "I due depuratori non sono nominati: nessun segnaposto in mappa. Scheda regionale, non una prevalenza."
+  }
+ ]
+}

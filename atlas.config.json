@@ -1,0 +1,26 @@
+{
+  "id": "vda_amr_atlas",
+  "regionCode": "VDA",
+  "regionName": "Valle d'Aosta",
+  "title": "Valle d'Aosta One Health AMR Atlas",
+  "shortName": "Valle d'Aosta One Health",
+  "brandIcon": "public/brand/vda-region-mark.svg",
+  "language": "it",
+  "publisher": "Codex Vitae ETS",
+  "dataStatusLabel": "Letteratura scientifica aggiornata il 20 novembre 2026 (5 studi). Fonti istituzionali: AR-ISS 2024 (CC BY 4.0, copertura 100%) e AIFA Open Data 2024 (CC BY 4.0). Scheda ambientale ARPA VdA su Ecoscienza 3/2025, CC BY-NC-SA 4.0, senza segnaposto.",
+  "literaturePlacePhrase": "alla Valle d'Aosta",
+  "publicScopeSummary": "Confini ISTAT 2026 (74 comuni, 1 provincia Valle d'Aosta/Vallée d'Aoste, regione), letti in UTF-8; AR-ISS 2024 (CC BY 4.0, copertura 100%, rete regionale); AIFA Open Data 2024, antibatterici J01 (CC BY 4.0); scheda ARPA Valle d'Aosta su Ecoscienza 3/2025, pp. 24-25 (CC BY-NC-SA 4.0, senza mappa); letteratura scientifica del 20 novembre 2026 (5 studi, tutti a scala regionale). USL Valle d'Aosta, Regione autonoma Valle d'Aosta e il PDF OsMed sono esclusi: nessuna licenza di riuso. IZSPLV non pubblica dati AMR riutilizzabili. Il segnaposto indica il luogo dello studio, non una prevalenza. Le aree vuote indicano nessuna evidenza pubblicata.",
+  "map": {
+    "center": [
+      45.73,
+      7.37
+    ],
+    "zoom": 9
+  },
+  "overviewLiteratureLabel": "studi sulla mappa",
+  "catalogs": {
+    "layers": "public/data/layer-catalog.json",
+    "evidence": "public/data/evidence-catalog.json",
+    "literature": "public/data/literature-catalog.json"
+  }
+}
